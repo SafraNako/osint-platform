@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osint-platform"
+version = "0.1.0"
+description = "A passive OSINT platform for organisations: public records about a domain (certificate transparency, RDAP, DNS, web archive, public GitHub metadata) collected with provenance, turned into findings, reports and diffs; domains only, no person lookups; validated against a planted-truth world and real recorded data"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "SafraNako" }]
+dependencies = []
+
+[project.optional-dependencies]
+plots = [
+    "matplotlib>=3.7",
+]
+dev = [
+    "pytest>=7.4",
+    "matplotlib>=3.7",
+]
+
+[project.scripts]
+osint = "osint_platformu.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+osint_platformu = ["data/*.json.gz"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+filterwarnings = [
+    "ignore::DeprecationWarning:matplotlib",
+    "ignore:.*parseAll.*:DeprecationWarning",
+]

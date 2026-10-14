@@ -1,0 +1,1408 @@
+{
+  "target": "iana.org",
+  "run": 1,
+  "taken_at": "2026-10-14T16:07:42Z",
+  "purpose": "example report from a recorded investigation of a public non-profit's domain",
+  "names": {
+    "data.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 115,
+        "first_seen": "2012-01-16T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc",
+          "Google Trust Services",
+          "Let's Encrypt"
+        ],
+        "last_seen": "2026-12-24T00:13:23Z"
+      },
+      "archive": null,
+      "a": [
+        "104.18.24.232",
+        "104.18.25.232"
+      ],
+      "aaaa": [
+        "2606:4700::6812:18e8",
+        "2606:4700::6812:19e8"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "data.iana.org",
+        "data.iana.org.cdn.cloudflare.net"
+      ]
+    },
+    "data2.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 10,
+        "first_seen": "2025-12-02T21:15:38Z",
+        "issuers": [
+          "Google Trust Services"
+        ],
+        "last_seen": "2026-08-27T02:13:51Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "data2.iana.org",
+        "data2.iana.org.cdn.cloudflare.net"
+      ]
+    },
+    "dnstest.int.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 4,
+        "first_seen": "2020-09-23T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc"
+        ],
+        "last_seen": "2023-09-29T23:59:59Z"
+      },
+      "archive": null,
+      "a": [
+        "10.32.10.92"
+      ],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "dnstest.int.iana.org",
+        "ianadnstest.int.vip.icann.org"
+      ]
+    },
+    "ftp.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 2,
+        "first_seen": "2026-07-06T18:56:38Z",
+        "issuers": [
+          "Let's Encrypt"
+        ],
+        "last_seen": "2026-10-04T18:56:40Z"
+      },
+      "archive": null,
+      "a": [
+        "192.0.32.8"
+      ],
+      "aaaa": [
+        "2620:0:2d0:200::8"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "ftp.iana.org",
+        "ianaftp.vip.icann.org"
+      ]
+    },
+    "handbook.int.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 16,
+        "first_seen": "2024-02-02T16:06:53Z",
+        "issuers": [
+          "Let's Encrypt"
+        ],
+        "last_seen": "2026-10-29T15:48:17Z"
+      },
+      "archive": null,
+      "a": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153"
+      ],
+      "aaaa": [
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "iana.org": {
+      "sources": [
+        "archive",
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 15,
+        "first_seen": "2008-08-29T18:00:14Z",
+        "issuers": [
+          "DigiCert Inc",
+          "GoDaddy.com, Inc.",
+          "Sectigo Limited"
+        ],
+        "last_seen": "2027-01-05T23:59:59Z"
+      },
+      "archive": {
+        "first_seen": "20211003",
+        "last_seen": "20260428",
+        "urls": 34
+      },
+      "a": [
+        "192.0.43.8"
+      ],
+      "aaaa": [
+        "2001:500:88:200::8"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "iana.org"
+      ]
+    },
+    "int.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 4,
+        "first_seen": "2022-10-27T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc",
+          "Sectigo Limited"
+        ],
+        "last_seen": "2026-12-14T23:59:59Z"
+      },
+      "archive": null,
+      "a": [
+        "10.32.10.95"
+      ],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "int.iana.org",
+        "ianaintranet.int.vip.icann.org"
+      ]
+    },
+    "intranet.int.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 3,
+        "first_seen": "2021-04-19T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc"
+        ],
+        "last_seen": "2023-09-29T23:59:59Z"
+      },
+      "archive": null,
+      "a": [
+        "10.32.10.29"
+      ],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "intranet.int.iana.org",
+        "ianavhost-int.int.vip.icann.org"
+      ]
+    },
+    "itar.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 1,
+        "first_seen": "2009-02-13T21:19:36Z",
+        "issuers": [
+          "GoDaddy.com, Inc."
+        ],
+        "last_seen": "2011-02-13T21:19:36Z"
+      },
+      "archive": null,
+      "a": [
+        "192.0.43.12"
+      ],
+      "aaaa": [
+        "2001:500:88:200::12"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "itar.iana.org"
+      ]
+    },
+    "ns.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 2,
+        "first_seen": "2009-06-19T01:36:54Z",
+        "issuers": [
+          "GoDaddy.com, Inc."
+        ],
+        "last_seen": "2011-06-18T19:49:42Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": {
+        "cname_target": null
+      },
+      "rcode": 3,
+      "chain": [
+        "ns.iana.org"
+      ]
+    },
+    "opal.int.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 5,
+        "first_seen": "2020-02-26T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc"
+        ],
+        "last_seen": "2023-09-29T23:59:59Z"
+      },
+      "archive": null,
+      "a": [
+        "10.32.10.93"
+      ],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "opal.int.iana.org",
+        "ianaopal.int.vip.icann.org"
+      ]
+    },
+    "pen.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 6,
+        "first_seen": "2026-07-06T18:56:38Z",
+        "issuers": [
+          "Google Trust Services",
+          "Let's Encrypt"
+        ],
+        "last_seen": "2026-12-02T23:12:00Z"
+      },
+      "archive": null,
+      "a": [
+        "104.18.24.232",
+        "104.18.25.232"
+      ],
+      "aaaa": [
+        "2606:4700::6812:18e8",
+        "2606:4700::6812:19e8"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "pen.iana.org",
+        "pen.iana.org.cdn.cloudflare.net"
+      ]
+    },
+    "rdns-public.int.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 3,
+        "first_seen": "2021-04-19T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc"
+        ],
+        "last_seen": "2023-09-29T23:59:59Z"
+      },
+      "archive": null,
+      "a": [
+        "192.0.33.91"
+      ],
+      "aaaa": [
+        "2620:0:2d0:201::91"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "rdns-public.int.iana.org",
+        "rdns.vip.icann.org"
+      ]
+    },
+    "rdns.int.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 4,
+        "first_seen": "2020-09-23T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc"
+        ],
+        "last_seen": "2023-09-29T23:59:59Z"
+      },
+      "archive": null,
+      "a": [
+        "10.47.10.94"
+      ],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "rdns.int.iana.org",
+        "ianardns.int.vip.icann.org"
+      ]
+    },
+    "rzm-epp.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 7,
+        "first_seen": "2019-09-12T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc",
+          "Sectigo Limited"
+        ],
+        "last_seen": "2026-11-05T23:59:59Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "rzm-epp.iana.org"
+      ]
+    },
+    "rzm-iana-ote.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 7,
+        "first_seen": "2019-10-26T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc",
+          "Sectigo Limited"
+        ],
+        "last_seen": "2026-12-25T23:59:59Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": {
+        "cname_target": null
+      },
+      "rcode": 3,
+      "chain": [
+        "rzm-iana-ote.iana.org"
+      ]
+    },
+    "rzm-ote-epp.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 8,
+        "first_seen": "2019-10-25T00:00:00Z",
+        "issuers": [
+          "DigiCert Inc",
+          "Sectigo Limited"
+        ],
+        "last_seen": "2026-12-25T23:59:59Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": {
+        "cname_target": null
+      },
+      "rcode": 3,
+      "chain": [
+        "rzm-ote-epp.iana.org"
+      ]
+    },
+    "rzm.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 1,
+        "first_seen": "2007-09-26T22:43:43Z",
+        "issuers": [
+          "GoDaddy.com, Inc."
+        ],
+        "last_seen": "2012-09-26T22:43:43Z"
+      },
+      "archive": null,
+      "a": [
+        "192.0.33.87"
+      ],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "rzm.iana.org",
+        "ianarzm.vip.icann.org"
+      ]
+    },
+    "sle-dashboard.iana.org": {
+      "sources": [
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 7,
+        "first_seen": "2026-07-06T18:56:38Z",
+        "issuers": [
+          "Google Trust Services",
+          "Let's Encrypt"
+        ],
+        "last_seen": "2026-12-03T00:52:01Z"
+      },
+      "archive": null,
+      "a": [
+        "104.18.24.232",
+        "104.18.25.232"
+      ],
+      "aaaa": [
+        "2606:4700::6812:18e8",
+        "2606:4700::6812:19e8"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "sle-dashboard.iana.org",
+        "sle-dashboard.iana.org.cdn.cloudflare.net"
+      ]
+    },
+    "www-cdn.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 2,
+        "first_seen": "2026-06-18T21:13:47Z",
+        "issuers": [
+          "Google Trust Services"
+        ],
+        "last_seen": "2026-09-16T22:13:53Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": {
+        "cname_target": null
+      },
+      "rcode": 3,
+      "chain": [
+        "www-cdn.iana.org"
+      ]
+    },
+    "www.iana.org": {
+      "sources": [
+        "archive",
+        "ct",
+        "dns"
+      ],
+      "ct": {
+        "certs": 12,
+        "first_seen": "2023-04-18T00:00:00Z",
+        "issuers": [
+          "Google Trust Services",
+          "Let's Encrypt",
+          "Sectigo Limited"
+        ],
+        "last_seen": "2026-11-19T21:51:30Z"
+      },
+      "archive": {
+        "first_seen": "19971210",
+        "last_seen": "20261007",
+        "urls": 4966
+      },
+      "a": [
+        "104.18.24.232",
+        "104.18.25.232"
+      ],
+      "aaaa": [
+        "2606:4700::6812:18e8",
+        "2606:4700::6812:19e8"
+      ],
+      "cname": null,
+      "nxdomain": null,
+      "rcode": 0,
+      "chain": [
+        "www.iana.org",
+        "www.iana.org.cdn.cloudflare.net"
+      ]
+    },
+    "www.itar.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 1,
+        "first_seen": "2009-02-13T21:19:36Z",
+        "issuers": [
+          "GoDaddy.com, Inc."
+        ],
+        "last_seen": "2011-02-13T21:19:36Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": {
+        "cname_target": null
+      },
+      "rcode": 3,
+      "chain": [
+        "www.itar.iana.org"
+      ]
+    },
+    "www.ns.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 2,
+        "first_seen": "2009-06-19T01:36:54Z",
+        "issuers": [
+          "GoDaddy.com, Inc."
+        ],
+        "last_seen": "2011-06-18T19:49:42Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": {
+        "cname_target": null
+      },
+      "rcode": 3,
+      "chain": [
+        "www.ns.iana.org"
+      ]
+    },
+    "www.rzm-epp.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 3,
+        "first_seen": "2023-09-08T00:00:00Z",
+        "issuers": [
+          "Sectigo Limited"
+        ],
+        "last_seen": "2026-11-05T23:59:59Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": {
+        "cname_target": null
+      },
+      "rcode": 3,
+      "chain": [
+        "www.rzm-epp.iana.org"
+      ]
+    },
+    "www.rzm.iana.org": {
+      "sources": [
+        "ct"
+      ],
+      "ct": {
+        "certs": 1,
+        "first_seen": "2007-09-26T22:43:43Z",
+        "issuers": [
+          "GoDaddy.com, Inc."
+        ],
+        "last_seen": "2012-09-26T22:43:43Z"
+      },
+      "archive": null,
+      "a": [],
+      "aaaa": [],
+      "cname": null,
+      "nxdomain": {
+        "cname_target": null
+      },
+      "rcode": 3,
+      "chain": [
+        "www.rzm.iana.org"
+      ]
+    }
+  },
+  "ips": {
+    "104.18.24.232": {
+      "asns": [
+        13335
+      ],
+      "prefix": "104.18.16.0/20",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "data.iana.org",
+        "pen.iana.org",
+        "sle-dashboard.iana.org",
+        "www.iana.org"
+      ]
+    },
+    "104.18.25.232": {
+      "asns": [
+        13335
+      ],
+      "prefix": "104.18.16.0/20",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "data.iana.org",
+        "pen.iana.org",
+        "sle-dashboard.iana.org",
+        "www.iana.org"
+      ]
+    },
+    "10.32.10.92": {
+      "asns": [],
+      "prefix": null,
+      "country": null,
+      "registry": null,
+      "names": [
+        "dnstest.int.iana.org"
+      ]
+    },
+    "192.0.32.8": {
+      "asns": [
+        40528
+      ],
+      "prefix": "192.0.32.0/24",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "ftp.iana.org"
+      ]
+    },
+    "185.199.108.153": {
+      "asns": [
+        54113
+      ],
+      "prefix": "185.199.108.0/24",
+      "country": "US",
+      "registry": "ripencc",
+      "names": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "185.199.109.153": {
+      "asns": [
+        54113
+      ],
+      "prefix": "185.199.109.0/24",
+      "country": "US",
+      "registry": "ripencc",
+      "names": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "185.199.110.153": {
+      "asns": [
+        54113
+      ],
+      "prefix": "185.199.110.0/24",
+      "country": "US",
+      "registry": "ripencc",
+      "names": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "185.199.111.153": {
+      "asns": [
+        54113
+      ],
+      "prefix": "185.199.111.0/24",
+      "country": "US",
+      "registry": "ripencc",
+      "names": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "192.0.43.8": {
+      "asns": [
+        16876
+      ],
+      "prefix": "192.0.43.0/24",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "iana.org"
+      ]
+    },
+    "10.32.10.95": {
+      "asns": [],
+      "prefix": null,
+      "country": null,
+      "registry": null,
+      "names": [
+        "int.iana.org"
+      ]
+    },
+    "10.32.10.29": {
+      "asns": [],
+      "prefix": null,
+      "country": null,
+      "registry": null,
+      "names": [
+        "intranet.int.iana.org"
+      ]
+    },
+    "192.0.43.12": {
+      "asns": [
+        16876
+      ],
+      "prefix": "192.0.43.0/24",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "itar.iana.org"
+      ]
+    },
+    "10.32.10.93": {
+      "asns": [],
+      "prefix": null,
+      "country": null,
+      "registry": null,
+      "names": [
+        "opal.int.iana.org"
+      ]
+    },
+    "192.0.33.91": {
+      "asns": [
+        40528
+      ],
+      "prefix": "192.0.32.0/22",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "rdns-public.int.iana.org"
+      ]
+    },
+    "10.47.10.94": {
+      "asns": [],
+      "prefix": null,
+      "country": null,
+      "registry": null,
+      "names": [
+        "rdns.int.iana.org"
+      ]
+    },
+    "192.0.33.87": {
+      "asns": [
+        40528
+      ],
+      "prefix": "192.0.32.0/22",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "rzm.iana.org"
+      ]
+    },
+    "2606:4700::6812:18e8": {
+      "asns": [
+        13335
+      ],
+      "prefix": "2606:4700::/44",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "data.iana.org",
+        "pen.iana.org",
+        "sle-dashboard.iana.org",
+        "www.iana.org"
+      ]
+    },
+    "2606:4700::6812:19e8": {
+      "asns": [
+        13335
+      ],
+      "prefix": "2606:4700::/44",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "data.iana.org",
+        "pen.iana.org",
+        "sle-dashboard.iana.org",
+        "www.iana.org"
+      ]
+    },
+    "2620:0:2d0:200::8": {
+      "asns": [
+        40528
+      ],
+      "prefix": "2620:0:2d0::/48",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "ftp.iana.org"
+      ]
+    },
+    "2606:50c0:8003::153": {
+      "asns": [
+        54113
+      ],
+      "prefix": "2606:50c0:8000::/46",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "2606:50c0:8000::153": {
+      "asns": [
+        54113
+      ],
+      "prefix": "2606:50c0:8000::/46",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "2606:50c0:8001::153": {
+      "asns": [
+        54113
+      ],
+      "prefix": "2606:50c0:8000::/46",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "2606:50c0:8002::153": {
+      "asns": [
+        54113
+      ],
+      "prefix": "2606:50c0:8000::/46",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "handbook.int.iana.org"
+      ]
+    },
+    "2001:500:88:200::8": {
+      "asns": [
+        16876
+      ],
+      "prefix": "2001:500:88::/48",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "iana.org"
+      ]
+    },
+    "2001:500:88:200::12": {
+      "asns": [
+        16876
+      ],
+      "prefix": "2001:500:88::/48",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "itar.iana.org"
+      ]
+    },
+    "2620:0:2d0:201::91": {
+      "asns": [
+        40528
+      ],
+      "prefix": "2620:0:2d0::/48",
+      "country": "US",
+      "registry": "arin",
+      "names": [
+        "rdns-public.int.iana.org"
+      ]
+    }
+  },
+  "asns": {
+    "13335": {
+      "country": "US",
+      "name": "CLOUDFLARENET - Cloudflare, Inc., US",
+      "registry": "arin"
+    },
+    "16876": {
+      "country": "US",
+      "name": "ICANN-DC - ICANN, US",
+      "registry": "arin"
+    },
+    "40528": {
+      "country": "US",
+      "name": "ICANN-LAX - ICANN, US",
+      "registry": "arin"
+    },
+    "54113": {
+      "country": "US",
+      "name": "FASTLY - Fastly, Inc., US",
+      "registry": "arin"
+    }
+  },
+  "wildcards": {
+    "iana.org": {
+      "certs": 10,
+      "first_seen": "2008-08-29T18:00:14Z",
+      "issuers": [
+        "DigiCert Inc",
+        "GoDaddy.com, Inc.",
+        "Sectigo Limited"
+      ],
+      "last_seen": "2027-01-05T23:59:59Z"
+    },
+    "int.iana.org": {
+      "certs": 4,
+      "first_seen": "2022-10-27T00:00:00Z",
+      "issuers": [
+        "DigiCert Inc",
+        "Sectigo Limited"
+      ],
+      "last_seen": "2026-12-14T23:59:59Z"
+    }
+  },
+  "registration": {
+    "registered": "1995-06-05T04:00:00.772Z",
+    "expires": "2027-12-08T17:00:53Z",
+    "last_changed": "2026-08-12T01:43:56.776Z",
+    "transferred": "2018-05-30T20:22:11.191Z",
+    "registrar": {
+      "iana_id": "299",
+      "name": "CSC Corporate Domains, Inc."
+    },
+    "rdap_status": [
+      "server delete prohibited",
+      "server transfer prohibited",
+      "server update prohibited"
+    ],
+    "nameservers": [
+      "ns.icann.org",
+      "a.iana-servers.net",
+      "b.iana-servers.net",
+      "c.iana-servers.net"
+    ],
+    "dnssec_signed": true
+  },
+  "apex": {
+    "mx": [
+      [
+        10,
+        "pechora1.icann.org"
+      ],
+      [
+        10,
+        "pechora6.icann.org"
+      ],
+      [
+        10,
+        "pechora7.icann.org"
+      ],
+      [
+        10,
+        "pechora8.icann.org"
+      ]
+    ],
+    "ns": [
+      "a.iana-servers.net",
+      "b.iana-servers.net",
+      "c.iana-servers.net",
+      "ns.icann.org"
+    ],
+    "txt": [
+      "MS=ms22660639",
+      "ZOOM_verify_OSW2jT8DRO7PWDLYayPfa1",
+      "anthropic-domain-verification-y6snfs=iFBQ4ycOIIfJWwcVxPVrM7GjE",
+      "c9e864a6c53444038d34fe3a22513b74",
+      "docusign=b2d7c7b0-4627-494b-a7aa-682ee87c265d",
+      "google-site-verification=6UylNQOBC9EN1ZNfySQ3g8XdRBqkGG4gifrzF9zsPD0",
+      "google-site-verification=iIqTTcUxND4wZOeVe5Ho728rH3JOSDnssYsYJ7pUtQQ",
+      "hibp-verify=dweb_deeci9b66kmruhrzqi0rgz1m",
+      "openai-domain-verification=dv-PthFCD7xcAsc4Af2tmFj9sui",
+      "smartsheet-site-validation=CcnvONgQ2ibuzf2zHZxgPaWUqTwt-Sjr",
+      "v=spf1 redirect=icann.org",
+      "yahoo-verification-key=a1BzYfCAaz0f0Lu5ciZqvFkN93BwOIFipV9hvjjvqJw="
+    ],
+    "caa": [
+      [
+        "0",
+        "iodef",
+        "mailto:<mailbox at icann.org>"
+      ],
+      [
+        "0",
+        "issue",
+        "digicert.com"
+      ],
+      [
+        "0",
+        "issue",
+        "letsencrypt.org"
+      ],
+      [
+        "0",
+        "issue",
+        "pki.goog"
+      ],
+      [
+        "0",
+        "issue",
+        "sectigo.com"
+      ],
+      [
+        "0",
+        "issuemail",
+        "sectigo.com"
+      ],
+      [
+        "0",
+        "issuewild",
+        "sectigo.com"
+      ]
+    ],
+    "spf": [
+      "v=spf1 redirect=icann.org"
+    ],
+    "dmarc": [
+      "v=DMARC1; p=none;fo=1; rua=mailto:<mailbox at ag.us.dmarcian.com>; ruf=mailto:<mailbox at iana.org>;"
+    ],
+    "mta_sts": []
+  },
+  "archive": {
+    "total": {
+      "truncated": true,
+      "urls": 5000
+    }
+  },
+  "github": {
+    "org": "iana-org",
+    "info": {
+      "blog": "https://iana.org",
+      "created_at": "2016-03-02T22:54:54Z",
+      "description": "Repositories relating to the Internet Assigned Numbers Authority services",
+      "followers": 40,
+      "linked_to_target": true,
+      "location": null,
+      "login": "iana-org",
+      "name": "IANA",
+      "public_repos": 9,
+      "type": "Organization",
+      "verified": true
+    },
+    "repos": [
+      {
+        "archived": false,
+        "created_at": "2017-02-03T00:49:14Z",
+        "description": "Tool for fetching/refreshing DNS Root Zone trust anchors",
+        "fork": false,
+        "language": "Python",
+        "name": "get-trust-anchor",
+        "pushed_at": "2026-09-10T17:18:29Z",
+        "stars": 113
+      },
+      {
+        "archived": false,
+        "created_at": "2023-03-29T22:58:03Z",
+        "description": "Tool for testing DNSSEC algorithm rollovers",
+        "fork": false,
+        "language": "Python",
+        "name": "dnssec-rollercoaster",
+        "pushed_at": "2026-08-07T15:02:29Z",
+        "stars": 2
+      },
+      {
+        "archived": false,
+        "created_at": "2026-05-14T18:59:03Z",
+        "description": "A Python CLI client for the IANA Root Zone Management System (RZMS) API.",
+        "fork": false,
+        "language": "Python",
+        "name": "rzm-client",
+        "pushed_at": "2026-05-14T21:05:05Z",
+        "stars": 0
+      },
+      {
+        "archived": false,
+        "created_at": "2021-04-13T22:31:40Z",
+        "description": "This repository contains source code for the software used to manage the DNSSEC Key Signing Key (KSK) for the Root Zone.",
+        "fork": false,
+        "language": "Python",
+        "name": "dnssec-keytools",
+        "pushed_at": "2025-12-16T18:45:02Z",
+        "stars": 6
+      },
+      {
+        "archived": false,
+        "created_at": "2018-07-12T21:23:06Z",
+        "description": "Root KSK Ceremony Operating ENvironment",
+        "fork": false,
+        "language": "Shell",
+        "name": "coen",
+        "pushed_at": "2025-01-30T20:31:14Z",
+        "stars": 87
+      },
+      {
+        "archived": false,
+        "created_at": "2023-04-05T17:24:24Z",
+        "description": null,
+        "fork": false,
+        "language": "Handlebars",
+        "name": "rzm-api",
+        "pushed_at": "2024-05-06T17:03:50Z",
+        "stars": 2
+      },
+      {
+        "archived": true,
+        "created_at": "2013-08-26T17:15:05Z",
+        "description": "Tools used for DNSSEC Key Signing Key management",
+        "fork": false,
+        "language": "C",
+        "name": "dnssec-keytools-legacy",
+        "pushed_at": "2021-09-24T19:40:50Z",
+        "stars": 36
+      },
+      {
+        "archived": true,
+        "created_at": "2014-04-22T22:37:22Z",
+        "description": "Implementation of the Global Policy for Post Exhaustion IPv4 Allocation by IANA",
+        "fork": false,
+        "language": "Python",
+        "name": "ipv4-recovery-algorithm",
+        "pushed_at": "2014-05-20T14:57:04Z",
+        "stars": 8
+      },
+      {
+        "archived": true,
+        "created_at": "2013-09-17T22:28:32Z",
+        "description": "Analyse RFC 4340 Service Codes",
+        "fork": false,
+        "language": "C",
+        "name": "servicecodeinfo",
+        "pushed_at": "2013-09-17T22:28:44Z",
+        "stars": 3
+      }
+    ]
+  },
+  "web": {
+    "robots": {
+      "iana.org": {
+        "disallow": [],
+        "sitemaps": []
+      }
+    }
+  },
+  "services": {
+    "Microsoft 365": [
+      [
+        "txt",
+        "MS"
+      ]
+    ],
+    "Zoom": [
+      [
+        "txt",
+        "ZOOM_verify_"
+      ]
+    ],
+    "DocuSign": [
+      [
+        "txt",
+        "docusign"
+      ]
+    ],
+    "Google (Search Console / Workspace)": [
+      [
+        "txt",
+        "google-site-verification"
+      ]
+    ],
+    "Have I Been Pwned": [
+      [
+        "txt",
+        "hibp-verify"
+      ]
+    ],
+    "Cloudflare (CDN)": [
+      [
+        "cname",
+        "data.iana.org -> data.iana.org.cdn.cloudflare.net"
+      ],
+      [
+        "cname",
+        "data2.iana.org -> data2.iana.org.cdn.cloudflare.net"
+      ],
+      [
+        "cname",
+        "pen.iana.org -> pen.iana.org.cdn.cloudflare.net"
+      ],
+      [
+        "cname",
+        "sle-dashboard.iana.org -> sle-dashboard.iana.org.cdn.cloudflare.net"
+      ],
+      [
+        "cname",
+        "www.iana.org -> www.iana.org.cdn.cloudflare.net"
+      ]
+    ]
+  },
+  "status": [
+    {
+      "source": "ct",
+      "state": "ok",
+      "detail": "25 names and 2 wildcard zones from 205 certificates via crt.sh",
+      "count": 25
+    },
+    {
+      "source": "rdap",
+      "state": "ok",
+      "detail": "11 facts from https://rdap.publicinterestregistry.org/rdap/",
+      "count": 11
+    },
+    {
+      "source": "wayback",
+      "state": "partial",
+      "detail": "5000 archived URLs on 2 hosts; 0 with paths worth a look; truncated at 5000",
+      "count": 2
+    },
+    {
+      "source": "web",
+      "state": "ok",
+      "detail": "1 facts from iana.org, www.iana.org",
+      "count": 1
+    },
+    {
+      "source": "github",
+      "state": "ok",
+      "detail": "iana-org: 9 of 9 public repositories",
+      "count": 9
+    },
+    {
+      "source": "dns",
+      "state": "ok",
+      "detail": "25 names, 81 queries",
+      "count": 25
+    }
+  ],
+  "findings": [
+    {
+      "id": "dmarc-monitor:iana.org",
+      "severity": "low",
+      "title": "DMARC policy is p=none (monitoring only)",
+      "detail": "Failing mail is delivered as usual; the policy only asks for reports.",
+      "evidence": [
+        "DNS TXT: v=DMARC1; p=none;fo=1; rua=mailto:<mailbox at ag.us.dmarcian.com>; ruf=mailto:<mailbox at iana.org>;"
+      ]
+    },
+    {
+      "id": "private-ip:iana.org",
+      "severity": "low",
+      "title": "5 name(s) resolve to non-public addresses",
+      "detail": "Internal addressing in public DNS reveals the internal network layout and usually is a leftover.",
+      "evidence": [
+        "DNS: dnstest.int.iana.org -> 10.32.10.92",
+        "DNS: int.iana.org -> 10.32.10.95",
+        "DNS: intranet.int.iana.org -> 10.32.10.29",
+        "DNS: opal.int.iana.org -> 10.32.10.93",
+        "DNS: rdns.int.iana.org -> 10.47.10.94"
+      ]
+    },
+    {
+      "id": "historic-names:iana.org",
+      "severity": "info",
+      "title": "8 names from certificates no longer resolve",
+      "detail": "Names that were certified but do not exist in DNS today: decommissioned hosts, internal names, or typos in certificate requests.",
+      "evidence": [
+        "CT+DNS: ns.iana.org (NXDOMAIN)",
+        "CT+DNS: rzm-iana-ote.iana.org (NXDOMAIN)",
+        "CT+DNS: rzm-ote-epp.iana.org (NXDOMAIN)",
+        "CT+DNS: www-cdn.iana.org (NXDOMAIN)",
+        "CT+DNS: www.itar.iana.org (NXDOMAIN)",
+        "CT+DNS: www.ns.iana.org (NXDOMAIN)",
+        "CT+DNS: www.rzm-epp.iana.org (NXDOMAIN)",
+        "CT+DNS: www.rzm.iana.org (NXDOMAIN)"
+      ]
+    },
+    {
+      "id": "mta-sts:iana.org",
+      "severity": "info",
+      "title": "No MTA-STS policy",
+      "detail": "Senders are not told to require TLS when delivering mail to this domain.",
+      "evidence": [
+        "DNS: no v=STSv1 record at _mta-sts.iana.org"
+      ]
+    },
+    {
+      "id": "security-txt-missing:iana.org",
+      "severity": "info",
+      "title": "No security.txt",
+      "detail": "RFC 9116 asks organisations to publish how to report vulnerabilities; none was found on the apex or www.",
+      "evidence": [
+        "web: /.well-known/security.txt and /security.txt not found"
+      ]
+    },
+    {
+      "id": "wildcard-certs:iana.org",
+      "severity": "info",
+      "title": "Wildcard certificates exist for 2 zone(s)",
+      "detail": "A wildcard hides which hosts exist in a zone: certificate transparency shows the zone, not its hosts.",
+      "evidence": [
+        "CT: *.iana.org",
+        "CT: *.int.iana.org"
+      ]
+    }
+  ],
+  "not_collected": "People: no registrant, administrative or technical contacts, no names or e-mail addresses of individuals (RDAP contact entities are discarded on arrival, e-mail addresses in any response are replaced by the mail domain), no usernames, no social-media profiles, no commit authors. Content: no page is crawled or scanned, and no historic URL is fetched. The only published contacts kept are those in security.txt, which exist to be used."
+}
